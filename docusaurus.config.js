@@ -1,16 +1,16 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'Easy Frontend',
+  tagline: 'Code xịn hơn mỗi ngày',
+  url: 'https://ezfrontend.com',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'paulnguyen-mn', // Usually your GitHub org/user name.
+  projectName: 'easy-frontend', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Easy Frontend',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'easy frontend',
         src: 'img/logo.svg',
       },
       links: [
@@ -20,7 +20,7 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        { to: 'blog', label: 'Blog', position: 'left' },
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
