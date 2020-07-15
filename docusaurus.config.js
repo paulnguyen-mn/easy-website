@@ -7,22 +7,25 @@ module.exports = {
   organizationName: 'paulnguyen-mn', // Usually your GitHub org/user name.
   projectName: 'easy-frontend', // Usually your repo name.
   themeConfig: {
+    gtag: {
+      trackingID: 'UA-172756678-1',
+    },
     navbar: {
-      title: 'Easy Frontend',
-      logo: {
-        alt: 'easy frontend',
-        src: 'img/logo.svg',
-      },
+      title: 'EASY FRONTEND',
+      // logo: {
+      //   alt: 'easy frontend',
+      //   src: 'img/logo.svg',
+      // },
       links: [
-        {
-          to: 'docs/',
-          activeBasePath: 'docs',
-          label: 'Docs',
-          position: 'left',
-        },
+        // {
+        //   to: 'docs/',
+        //   activeBasePath: 'docs',
+        //   label: 'Docs',
+        //   position: 'left',
+        // },
         { to: 'blog', label: 'Blog', position: 'left' },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://gist.github.com/paulnguyen-mn',
           label: 'GitHub',
           position: 'right',
         },
@@ -32,37 +35,33 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Tài liệu',
           items: [
             {
-              label: 'Style Guide',
+              label: 'Comming soon',
               to: 'docs/',
             },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
-            },
           ],
         },
         {
-          title: 'Community',
+          title: 'Cộng đồng',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Facebook Fanpage',
+              href: 'https://www.facebook.com/learn.easyfrontend',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Nhóm trao đổi, hỏi bài về Easy Frontend',
+              href: 'https://www.facebook.com/groups/easyfrontend',
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'Kênh Youtube Easy Frontend',
+              href: 'https://www.youtube.com/easyfrontend?sub_confirmation=1',
             },
           ],
         },
         {
-          title: 'More',
+          title: 'Khác',
           items: [
             {
               label: 'Blog',
@@ -70,12 +69,12 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://gist.github.com/paulnguyen-mn',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Easy Frontend. Built with Docusaurus.`,
     },
   },
   presets: [
@@ -84,17 +83,17 @@ module.exports = {
       {
         docs: {
           // It is recommended to set document id as docs home page (`docs/` path).
-          homePageId: 'doc1',
+          homePageId: 'home',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/paulnguyen-mn/easy-frontend',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/paulnguyen-mn/easy-frontend',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
