@@ -25,7 +25,7 @@ module.exports = {
         // },
         { to: 'blog', label: 'Blog', position: 'left' },
         {
-          href: 'https://gist.github.com/paulnguyen-mn',
+          href: 'https://github.com/paulnguyen-mn',
           label: 'GitHub',
           position: 'right',
         },
@@ -69,7 +69,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://gist.github.com/paulnguyen-mn',
+              href: 'https://github.com/paulnguyen-mn',
             },
           ],
         },
