@@ -76,7 +76,7 @@ Phần này mục đích là để trả lời phần câu hỏi về kiến th�
 - Reset CSS vs Normalize CSS 
 - ...
 
-<div style="page-break-after: always;"></div>
+
 
 ### JAVASCRIPT
 
@@ -114,8 +114,6 @@ Phần này mục đích là để trả lời phần câu hỏi về kiến th�
 - ...
 
 
-<div style="page-break-after: always;"></div>
-
 ## 2. Cày thuật toán, giải thuật
 
 Cái này thì đa dạng lắm nên mình không biết sẽ bị hỏi về vấn đề gì nhen. Nên ôn luyện hết cho chắc 😉 Thường người ra đề sẽ cho một bài toán gì đó, mình tự phân tích và sử dụng thuật toán thích hợp để giải nó.
@@ -152,7 +150,7 @@ Cái này thì đa dạng lắm nên mình không biết sẽ bị hỏi về v�
 
 --- 
 
-Hi vọng bài chia sẻ này hữu ích với mọi người! <br />
-Chúc các bạn có một buổi phỏng vấn thành công tốt đẹp nhé! 🎉 <br />
+Hi vọng bài chia sẻ này hữu ích với mọi người! <br/>
+Chúc các bạn có một buổi phỏng vấn thành công tốt đẹp nhé! 🎉 <br/>
 
 > From Easy Frontend with ❤️
