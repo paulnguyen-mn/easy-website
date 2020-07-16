@@ -59,6 +59,7 @@ function Home() {
     <Layout
       title="Trang chủ"
       description="Nơi kiến thức Frontend được chia sẻ một cách đơn giản, dễ hiểu và đặc biệt là vui 😍"
+      image="https://res.cloudinary.com/kimwy/image/upload/v1594865704/easyfrontend/easy-frontend-banner_a40d3f.jpg"
     >
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
