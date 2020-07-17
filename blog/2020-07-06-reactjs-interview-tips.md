@@ -1,5 +1,5 @@
 ---
-id: bi-kip-phong-van-reactjs-thanh-thanh
+id: bi-kip-phong-van-reactjs-thanh-cong
 title: Bí kíp cho buổi phỏng vấn ReactJS thành công 🎉
 author: Hậu Nguyễn
 author_title: Senior Software Engineer at fram^
