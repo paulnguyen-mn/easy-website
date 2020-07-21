@@ -2,6 +2,7 @@
 id: cai-dat-moi-truong-lam-viec
 title: Cài đặt môi trường làm việc cho khoá học Frontend 🚀
 sidebar_label: Cài đặt môi trường
+image: https://images.unsplash.com/photo-1507470855518-469f3b3dad25?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1380&q=80
 ---
 
 Tài liệu này sẽ giúp các bạn cài đặt môi trường làm việc để sắn sàng cho khoá học `Frontend cho người mới bắt đầu` tại [Nordic Coder](https://nordiccoder.com/).
