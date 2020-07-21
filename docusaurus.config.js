@@ -17,12 +17,12 @@ module.exports = {
       //   src: 'img/logo.svg',
       // },
       links: [
-        // {
-        //   to: 'docs/',
-        //   activeBasePath: 'docs',
-        //   label: 'Docs',
-        //   position: 'left',
-        // },
+        {
+          to: 'docs/',
+          activeBasePath: 'docs',
+          label: 'Docs',
+          position: 'left',
+        },
         { to: 'blog', label: 'Blog', position: 'left' },
         {
           href: 'https://github.com/paulnguyen-mn',
@@ -83,7 +83,7 @@ module.exports = {
       {
         docs: {
           // It is recommended to set document id as docs home page (`docs/` path).
-          homePageId: 'home',
+          homePageId: 'cai-dat-moi-truong-lam-viec',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // editUrl: 'https://github.com/paulnguyen-mn/easy-frontend',
