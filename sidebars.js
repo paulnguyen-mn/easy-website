@@ -1,5 +1,5 @@
 module.exports = {
   someSidebar: {
-    Docs: ['cai-dat-moi-truong-lam-viec'],
+    'Khoá học Frontend': ['cai-dat-moi-truong-lam-viec', 'tai-lieu-tham-khao-hoc-html-css-co-ban'],
   },
 };

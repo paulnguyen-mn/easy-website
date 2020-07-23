@@ -76,6 +76,17 @@ module.exports = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Easy Frontend. Built with Docusaurus.`,
     },
+    prism: {
+      theme: require('prism-react-renderer/themes/dracula'),
+      darkTheme: require('prism-react-renderer/themes/dracula'),
+    },
+    // announcementBar: {
+    //   id: 'support_us', // Any value that will identify this message.
+    //   content:
+    //     'We are looking to revamp our docs, please fill <a target="_blank" rel="noopener noreferrer" href="#">this survey</a>',
+    //   backgroundColor: '#fafbfc', // Defaults to `#fff`.
+    //   textColor: '#091E42', // Defaults to `#000`.
+    // },
   },
   presets: [
     [
