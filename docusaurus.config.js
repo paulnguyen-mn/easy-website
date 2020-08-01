@@ -16,7 +16,7 @@ module.exports = {
       //   alt: 'easy frontend',
       //   src: 'img/logo.svg',
       // },
-      links: [
+      items: [
         {
           to: 'docs/',
           activeBasePath: 'docs',
