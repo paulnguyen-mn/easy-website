@@ -5,5 +5,8 @@ module.exports = {
       'tai-lieu-tham-khao-hoc-html-css-co-ban',
       'html-06-box-shadow'
     ],
+    'Authentication': [
+      'dang-nhap-voi-jwt'
+    ]
   },
 };
