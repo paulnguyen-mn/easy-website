@@ -1,5 +1,5 @@
 ---
-id: developer-habits
+slug: developer-habits
 title: 7 thói quen của một developer "chất" 😎
 author: Hậu Nguyễn
 author_title: Senior Software Engineer at fram^

@@ -1,5 +1,5 @@
 ---
-id: lo-trinh-hoc-reactjs-co-ban-2020
+slug: lo-trinh-hoc-reactjs-co-ban-2020
 title: Lộ trình học ReactJS cơ bản cho người mới bắt đầu 2020 🥰
 author: Hậu Nguyễn
 author_title: Senior Software Engineer at fram^

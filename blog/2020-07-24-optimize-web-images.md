@@ -1,5 +1,5 @@
 ---
-id: optimize-web-images
+slug: optimize-web-images
 title: Những điều cần lưu ý khi làm việc với hình ảnh trong dự án thực tế 🔥
 author: Hậu Nguyễn
 author_title: Senior Software Engineer at fram^

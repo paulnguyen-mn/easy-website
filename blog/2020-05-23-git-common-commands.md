@@ -1,5 +1,5 @@
 ---
-id: git-dung-trong-du-an-thuc-te
+slug: git-dung-trong-du-an-thuc-te
 title: Git - Các lệnh được dùng từ lúc nhận task cho tới lúc tạo PR 🎉
 author: Hậu Nguyễn
 author_title: Senior Software Engineer at fram^

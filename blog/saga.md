@@ -1,5 +1,5 @@
 ---
-id: saga
+slug: saga
 title: Bí kíp cho buổi phỏng vấn ReactJS thành công 🎉
 author: Hậu Nguyễn
 author_title: Senior Software Engineer at fram^

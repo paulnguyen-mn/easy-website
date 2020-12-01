@@ -1,5 +1,5 @@
 ---
-id: hoc-lap-trinh-o-dau-de-thanh-cong
+slug: hoc-lap-trinh-o-dau-de-thanh-cong
 title: Học lập trình ở đâu để thành công? 🎉
 author: Hậu Nguyễn
 author_title: Senior Software Engineer at fram^
