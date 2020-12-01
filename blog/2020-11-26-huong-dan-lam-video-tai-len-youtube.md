@@ -67,7 +67,6 @@ BẮT ĐẦU THÔI!!! 😍
   - CPU `core i5`
   - RAM `ít nhất 8GB`, tốt thì nên `16GB`.
   - Có card đồ hoạ càng tốt.
-- 
 :::
 
 ## 3. Tìm hiểu cấu trúc của một video
