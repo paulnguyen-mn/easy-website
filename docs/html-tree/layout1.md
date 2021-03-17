@@ -226,4 +226,4 @@ footer
 
 
 
-<small>Writing by <a href="https://www.linkedin.com/in/hungle-ag/">HungLe </a>with ❤️ Easy Frontend.</small>
+<small>Writing in 2021 by <a href="https://www.linkedin.com/in/hungle-ag/">HungLe </a>with ❤️ Easy Frontend.</small>
