@@ -60,10 +60,10 @@ section.banner
 |__ div.container
 |   |__ div.banner__row
 |       |__ div.banner__col
-|       |   |__ div.banner-title__main
-|       |       |__ h1.banner-title__headline
-|       |       |__ p.banner-title__subtitle
-|       |       |__ button.banner-title__btn
+|       |   |__ div.banner-main
+|       |       |__ h1
+|       |       |__ p
+|       |       |__ button
 |       |   
 |       |__ div.banner__col
 |           |__ div.banner-thumbnail
