@@ -35,7 +35,7 @@ body
 ```
 ## section.top-bar
 
-![alt](../../static/img/layout-1-header.png)
+![alt](../../static/img/layout-1-header.jpg)
 
 ```
 nav.top-bar
@@ -51,8 +51,7 @@ nav.top-bar
 ```
 ## section.banner
 
-![alt](../../static/img/layout-1-main-section-hero.png)
-
+![alt](../../static/img/layout-1-main-section-hero.jpg)
 ```
 section.banner
 |__ div.container
@@ -70,7 +69,7 @@ section.banner
 
 ## section.why-us
 
-![alt](../../static/img/layout-1-main-section-item-list.png)
+![alt](../../static/img/layout-1-main-section-item-list.jpg)
 
 ```
 section.why-us
@@ -85,7 +84,7 @@ section.why-us
 
 ## section.clients
 
-![alt](../../static/img/layout-1-main-section-logo-banner.png)
+![alt](../../static/img/layout-1-main-section-logo-banner.jpg)
 
 ```
 section.clients
@@ -98,7 +97,7 @@ section.clients
 ```
 ## section.title-box
 
-![alt](../../static/img/layout-1-main-section-title-box.png)
+![alt](../../static/img/layout-1-main-section-title-box.jpg)
 
 ```
 section.title-box
@@ -108,10 +107,10 @@ section.title-box
 ```
 ## section.step
 
-![alt](../../static/img/layout-1-main-section-step-1.png)
-![alt](../../static/img/layout-1-main-section-step-2.png)
-![alt](../../static/img/layout-1-main-section-step-3.png)
-![alt](../../static/img/layout-1-main-section-step-4.png)
+![alt](../../static/img/layout-1-main-section-step-1.jpg)
+![alt](../../static/img/layout-1-main-section-step-2.jpg)
+![alt](../../static/img/layout-1-main-section-step-3.jpg)
+![alt](../../static/img/layout-1-main-section-step-4.jpg)
 
 ```
 section.step
@@ -131,7 +130,7 @@ section.step
 
 ## section.feature
 
-![alt](../../static/img/layout-1-main-section-feature-1.png)
+![alt](../../static/img/layout-1-main-section-feature-1.jpg)
 
 ```
 section.feature
@@ -150,7 +149,7 @@ section.feature
 
 ## section.integration
 
-![alt](../../static/img/layout-1-main-section-integration.png)
+![alt](../../static/img/layout-1-main-section-integration.jpg)
 
 ```
 section.integration
@@ -161,7 +160,7 @@ section.integration
 ```
 ## section.testimonial
 
-![alt](../../static/img/layout-1-main-section-testimonions.png)
+![alt](../../static/img/layout-1-main-section-testimonial.jpg)
 
 ```
 section.testimonial
@@ -177,7 +176,7 @@ section.testimonial
 
 ## section.cta
 
-![alt](../../static/img/layout-1-main-section-cta.png)
+![alt](../../static/img/layout-1-main-section-cta.jpg)
 
 ```
 section.cta-box
@@ -190,7 +189,7 @@ section.cta-box
 
 ## footer
 
-![alt](../../static/img/layout-1-footer.png)
+![alt](../../static/img/layout-1-footer.jpg)
 
 ```
 footer
