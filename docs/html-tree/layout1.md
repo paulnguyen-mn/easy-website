@@ -28,7 +28,7 @@ body
 |  |__ section.step
 |  |__ section.feature
 |  |__ section.integration
-|  |__ section.testimonions
+|  |__ section.testimonial
 |  |__ section.cta
 |
 |__ footer
@@ -98,7 +98,7 @@ section.clients
 |__ div.container
 |   |__ p.clients__subtitle
 |   |
-|   |__ ul.clients__thumbnail
+|   |__ ul.clients__list
 |       |__ li*5
 |           |__ img
 
@@ -169,23 +169,23 @@ section.integration
 |__ div.container
 |   |__ div
 |       |__ h3
-|       |__ ul > li*6 > div > a > img
+|       |__ ul > li*6 > a > img
 
 ```
-## section.testimonions
+## section.testimonial
 
 ![alt](../../static/img/layout-1-main-section-testimonions.png)
 
 ```
-section.testimonions
+section.testimonial
 |__ div.container
-|   |__ ul.testimontion-list
+|   |__ ul.testimontial-list
 |       |__ li*3
-|           |__ div.testimontion-item
-|               |__ img.testimontion-item__thumbnail
-|               |__ p.testimontion-item__desc
-|               |__ p.testimontion-item__name
-|               |__ p.testimontion-item__subtitle
+|           |__ div.testimontial-item
+|               |__ img.testimontial-item__thumbnail
+|               |__ p.testimontial-item__desc
+|               |__ p.testimontial-item__name
+|               |__ p.testimontial-item__subtitle
 
 ```
 
