@@ -112,7 +112,7 @@ section.clients
 section.title-box
 |__ div.container
 |   |__ div.title-box__title
-|       |__ h4
+|       |__ h2
 
 ```
 ## section.step
