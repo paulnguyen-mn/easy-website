@@ -32,7 +32,6 @@ body
 |  |__ section.cta
 |
 |__ footer
-
 ```
 ## section.top-bar
 
@@ -49,7 +48,6 @@ nav.top-bar
 |       |
 |       |__ div.top-bar__col
 |          
-
 ```
 ## section.banner
 
@@ -60,7 +58,7 @@ section.banner
 |__ div.container
 |   |__ div.banner__row
 |       |__ div.banner__col
-|       |   |__ div.banner-main
+|       |   |__ div.banner-content
 |       |       |__ h1
 |       |       |__ p
 |       |       |__ button
@@ -68,8 +66,6 @@ section.banner
 |       |__ div.banner__col
 |           |__ div.banner-thumbnail
 |               |__img
-
-
 ```
 
 ## section.why-us
@@ -85,8 +81,6 @@ section.why-us
 |              |__ div.reason-item__thumbnail > i   // icon
 |              |__ h3.reason-item__title
 |              |__ p.reason-item__desc
-
-
 ```
 
 ## section.clients
@@ -101,8 +95,6 @@ section.clients
 |   |__ ul.clients__list
 |       |__ li*5
 |           |__ img
-
-
 ```
 ## section.title-box
 
@@ -113,7 +105,6 @@ section.title-box
 |__ div.container
 |   |__ div.title-box__title
 |       |__ h2
-
 ```
 ## section.step
 
@@ -136,8 +127,6 @@ section.step
 |       |__ div.step__col    
 |           |__ div.step__image
 |               |__ img
-
-
 ```
 
 ## section.feature
@@ -157,7 +146,6 @@ section.feature
 |               |__ div.feature__main
 |                       |__p.feature-item__title
 |                       |__p.feature-item__desc
-
 ```
 
 ## section.integration
@@ -170,7 +158,6 @@ section.integration
 |   |__ div
 |       |__ h3
 |       |__ ul > li*6 > a > img
-
 ```
 ## section.testimonial
 
@@ -186,7 +173,6 @@ section.testimonial
 |               |__ p.testimontial-item__desc
 |               |__ p.testimontial-item__name
 |               |__ p.testimontial-item__subtitle
-
 ```
 
 ## section.cta
@@ -200,7 +186,6 @@ section.cta-box
 |       |__ h2.cta-box__title
 |       |__ p.cta-box__decs
 |       |__ button.cta-box__btn
-
 ```
 
 ## footer
@@ -221,8 +206,8 @@ footer
         |       |__ul.footer-menu > li*4 > a
         |
         |__ p.copyright
-
 ```
+
 
 
 
