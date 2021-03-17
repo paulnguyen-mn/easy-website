@@ -6,8 +6,7 @@ module.exports = {
       'html-06-box-shadow',
       'tong-quan-ve-javascript',
     ],
-    'Authentication': [
-      'dang-nhap-voi-jwt'
-    ]
+    Authentication: ['dang-nhap-voi-jwt'],
+    'Phân tích cây HTML': ['html-tree/layout-1', 'html-tree/layout-2'],
   },
 };
