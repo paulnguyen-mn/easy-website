@@ -86,7 +86,6 @@ section.why-us
 |              |__ h3.reason-item__title
 |              |__ p.reason-item__desc
 
-Note:  we didn't need to set "class" here, we set class when element needed to style different.
 
 ```
 
@@ -227,4 +226,4 @@ footer
 
 
 
-<small>Writing by <a href="https://www.linkedin.com/in/hungle-ag/">HungLe </a>with ❤️ Easy Frontend. Goodluck!</small>
+<small>Writing by <a href="https://www.linkedin.com/in/hungle-ag/">HungLe </a>with ❤️ Easy Frontend.</small>
