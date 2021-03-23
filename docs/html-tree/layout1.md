@@ -1,10 +1,14 @@
 ---
 id: layout-1
-slug: /layout-1
-title: HTML tree analysis - LiveRecover marketing site
+slug: /phan-tich-cay-html-trang-live-recover
+title: Phân tích cây HTML - LiveRecover marketing site
 sidebar_label: Bài 1 - LiveRecover marketing site
-image: https://images.unsplash.com/photo-1507470855518-469f3b3dad25?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1380&q=80
+image: https://res.cloudinary.com/kimwy/image/upload/v1616473212/easyfrontend/html-css-thumbnail_exrv5a.jpg
 ---
+
+Trong series này mình sẽ cùng các bạn chọn ra những layout của nhiều website khác nhau, sau đó phân tích cây HTML nhé, có áp dụng quy tắc đặt tên class BEM.
+
+- Tham khảo thêm về BEM: [http://getbem.com/](http://getbem.com/)
 
 Layout URL: <a href="https://screenlane.com/screen/liverecover-marketing-site-fc1/">link to screenlane</a>🚀
 
@@ -41,13 +45,12 @@ body
 nav.top-bar
 |__ div.container
 |    |__ div.top-bar__row
-|       |__ div.top-bar__col
+|       |__ div.top-bar__logo > img
 |       |   
-|       |__ div.top-bar__col
+|       |__ div.top-bar__menu
 |       |   |__ ul.menu-list > li*5 > a 
 |       |
-|       |__ div.top-bar__col
-|          
+|       |__ div.top-bar__actions > button
 ```
 ## section.banner
 
@@ -77,7 +80,7 @@ section.why-us
 |   |__ ul.why-us__list          
 |       |__ li*3
 |           |__div.reason-item
-|              |__ div.reason-item__thumbnail > i   // icon
+|              |__ div.reason-item__icon > i   // icon
 |              |__ h3.reason-item__title
 |              |__ p.reason-item__desc
 ```
@@ -102,10 +105,11 @@ section.clients
 ```
 section.title-box
 |__ div.container
-|   |__ div.title-box__title
-|       |__ h2
+|   |__ h2.title-box__title
 ```
 ## section.step
+
+- Các bạn để ý các section dưới đây nó cùng một styles, nên mình cần làm một class chung là được. Còn việc trái phải của hình ảnh thì chỉ cần dùng css order để move hình ảnh lên trước là xong 😜
 
 ![alt](../../static/img/layout-1-main-section-step-1.jpg)
 ![alt](../../static/img/layout-1-main-section-step-2.jpg)
@@ -123,7 +127,7 @@ section.step
 |       |       |__ p
 |       |       |__ small // strong
 |       |
-|       |__ div.step__col    
+|       |__ div.step__col (.step__col--first thêm class này để đẩy image qua bên trái)
 |           |__ div.step__image
 |               |__ img
 ```
@@ -135,16 +139,18 @@ section.step
 ```
 section.feature
 |__ div.container
-|   |__ div.feature__contents
-|       |__ h2.feature__title
-|       |__ p.feature__subtitle
-|       |__ ul > li*6
-|           |__ div.feature__item
-|               |   |__ img    //icon
-|               |
-|               |__ div.feature__main
-|                       |__p.feature-item__title
-|                       |__p.feature-item__desc
+|   |__ h2.feature__title
+|   |__ p.feature__subtitle
+|   |__ ul.feature__list > li*6 > div.feature-item
+
+
+div.feature-item
+|__ div.feature-item__icon
+|   |__ img
+|
+|__ div.feature-item__main
+|   |__p.feature-item__title
+|   |__p.feature-item__desc
 ```
 
 ## section.integration
@@ -155,8 +161,8 @@ section.feature
 section.integration
 |__ div.container
 |   |__ div
-|       |__ h3
-|       |__ ul > li*6 > a > img
+|       |__ h3.integration__title
+|       |__ ul.integration__list > li*6 > a > img
 ```
 ## section.testimonial
 
@@ -165,13 +171,13 @@ section.integration
 ```
 section.testimonial
 |__ div.container
-|   |__ ul.testimontial-list
+|   |__ ul.testimontial__list
 |       |__ li*3
 |           |__ div.testimontial-item
-|               |__ img.testimontial-item__thumbnail
-|               |__ p.testimontial-item__desc
+|               |__ img.testimontial-item__avatar
+|               |__ p.testimontial-item__feedback
 |               |__ p.testimontial-item__name
-|               |__ p.testimontial-item__subtitle
+|               |__ p.testimontial-item__company
 ```
 
 ## section.cta
@@ -180,34 +186,34 @@ section.testimonial
 
 ```
 section.cta-box
-|__ div.container
-|   |__ div.cta-box__main
-|       |__ h2.cta-box__title
-|       |__ p.cta-box__decs
-|       |__ button.cta-box__btn
+|__ div.cta-box__container
+|   |__ h2.cta-box__title
+|   |__ p.cta-box__decs
+|   |__ button.cta-box__submit
 ```
 
 ## footer
 
 ![alt](../../static/img/layout-1-footer.jpg)
 
-```
-footer
-|__ section.footer
-    |__ div.container
+```bash
+footer.footer
+|__ div.container
         |__ div.footer__row
         |   |__ div.footer__col
-        |   |          |__ div.footer-logo > img
-        |   |          |__ p.footer-subtitle
-        |   |          |__ ul.footer-social > li*3 > i // icon
+        |   |          |__ div.footer__logo > img
+        |   |          |__ p.footer__subtitle
+        |   |          |__ ul.footer__social > li*3 > i // icon
         |   |
         |   |__ div.footer__col
-        |       |__ul.footer-menu > li*4 > a
+        |       |__ul.footer__menu > li*4 > div.menu-group
         |
-        |__ p.copyright
+        |__ p.footer__copyright
+
+
+div.menu-group
+|__ p.menu-group__title
+|__ ul.menu-group__list > li*n > a
 ```
-
-
-
 
 <small>Writing in 2021 by <a href="https://www.linkedin.com/in/hungle-ag/">HungLe </a>with ❤️ Easy Frontend.</small>
