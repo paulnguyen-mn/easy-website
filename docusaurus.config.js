@@ -3,7 +3,7 @@ module.exports = {
   tagline: "Code xịn hơn mỗi ngày",
   url: "https://ezfrontend.com",
   baseUrl: "/",
-  favicon: "img/favicon.ico",
+  favicon: "img/easy-favicon.png",
   organizationName: "paulnguyen-mn", // Usually your GitHub org/user name.
   projectName: "easy-frontend", // Usually your repo name.
   themeConfig: {
@@ -12,10 +12,10 @@ module.exports = {
     },
     navbar: {
       title: "EASY FRONTEND",
-      // logo: {
-      //   alt: 'easy frontend',
-      //   src: 'img/logo.svg',
-      // },
+      logo: {
+        alt: "easy frontend",
+        src: "img/easy-favicon.png",
+      },
       items: [
         {
           to: "docs/",
@@ -25,8 +25,13 @@ module.exports = {
         },
         { to: "blog", label: "Blog", position: "left" },
         {
-          href: "https://github.com/paulnguyen-mn",
-          label: "GitHub",
+          href: "https://youtube.com/easyfrontend/join",
+          label: "Đăng ký Fan Cứng",
+          position: "right",
+        },
+        {
+          href: "https://course.ezfrontend.com/reactjs",
+          label: "Khoá học ReactJS",
           position: "right",
         },
       ],
@@ -35,11 +40,16 @@ module.exports = {
       style: "dark",
       links: [
         {
-          title: "Tài liệu",
+          title: "Hot blogs",
           items: [
             {
-              label: "Comming soon",
-              to: "docs/",
+              label:
+                "Lộ trình học Frontend cho người mới bắt đầu siêu chi tiết 🎯",
+              to: "blog/lo-trinh-hoc-frontend-sieu-chi-tiet",
+            },
+            {
+              label: "Bí kíp cho buổi phỏng vấn ReactJS thành công 🎉",
+              to: "blog/bi-kip-phong-van-reactjs-thanh-cong",
             },
           ],
         },
