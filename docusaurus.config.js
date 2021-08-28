@@ -34,13 +34,18 @@ module.exports = {
           label: "Khoá học ReactJS",
           position: "right",
         },
+        {
+          href: "https://course.ezfrontend.com/javascript",
+          label: "Khoá học Javascript",
+          position: "right",
+        },
       ],
     },
     footer: {
       style: "dark",
       links: [
         {
-          title: "Hot blogs",
+          title: "Blogs",
           items: [
             {
               label:
@@ -48,38 +53,46 @@ module.exports = {
               to: "blog/lo-trinh-hoc-frontend-sieu-chi-tiet",
             },
             {
-              label: "Bí kíp cho buổi phỏng vấn ReactJS thành công 🎉",
+              label: "Bí kíp cho buổi phỏng vấn ReactJS thành công",
               to: "blog/bi-kip-phong-van-reactjs-thanh-cong",
             },
           ],
         },
         {
-          title: "Cộng đồng",
+          title: "Kết nối",
           items: [
+            {
+              label: "Facebook cá nhân",
+              href: "https://www.facebook.com/nvhauesmn",
+            },
             {
               label: "Facebook Fanpage",
               href: "https://www.facebook.com/learn.easyfrontend",
             },
             {
-              label: "Nhóm trao đổi, hỏi bài về Easy Frontend",
+              label: "Facebook Group",
               href: "https://www.facebook.com/groups/easyfrontend",
             },
             {
-              label: "Kênh Youtube Easy Frontend",
+              label: "Youtube",
               href: "https://www.youtube.com/easyfrontend?sub_confirmation=1",
-            },
-          ],
-        },
-        {
-          title: "Khác",
-          items: [
-            {
-              label: "Blog",
-              to: "blog",
             },
             {
               label: "GitHub",
               href: "https://github.com/paulnguyen-mn",
+            },
+          ],
+        },
+        {
+          title: "Khoá học",
+          items: [
+            {
+              label: "Javascript từ cơ bản đến nâng cao 🔥",
+              to: "https://course.ezfrontend.com/javascript",
+            },
+            {
+              label: "ReactJS cho người mới bắt đầu 🎁",
+              href: "https://course.ezfrontend.com/reactjs",
             },
           ],
         },
@@ -91,11 +104,11 @@ module.exports = {
       darkTheme: require("prism-react-renderer/themes/dracula"),
     },
     // announcementBar: {
-    //   id: 'support_us', // Any value that will identify this message.
+    //   id: "support_us", // Any value that will identify this message.
     //   content:
     //     'We are looking to revamp our docs, please fill <a target="_blank" rel="noopener noreferrer" href="#">this survey</a>',
-    //   backgroundColor: '#fafbfc', // Defaults to `#fff`.
-    //   textColor: '#091E42', // Defaults to `#000`.
+    //   backgroundColor: "#fafbfc", // Defaults to `#fff`.
+    //   textColor: "#091E42", // Defaults to `#000`.
     // },
   },
   presets: [
