@@ -48,10 +48,10 @@ Hiện tại kênh chưa có nhiều nội dung phần này, nhưng sẽ cập n
 :::tip Master HTML/CSS với khoá học từ anh Tuấn - Founder of [Evondev](https://www.youtube.com/channel/UC8vjHOEYlnVTqAgE6CFDm_Q)
 
 - Anh Tuấn là chủ kênh Youtube Evondev chia sẻ rất nhiều chủ đề hay về HTML/CSS.
-- Đặc biệt anh Tuấn còn có một website [CodingUI](https://codingui.dev/) tổng hợp các UI làm sẵn rất đẹp, bạn có thể tham khảo.
-- Và một số extensions hữu ích của VSCode được anh tạo ra sử dụng bởi hàng ngàn developers.
+- Website [CodingUI](https://codingui.dev/) tổng hợp các UI làm sẵn rất đẹp.
+- Một số extensions hữu ích cho VSCode được sử dụng bởi hàng ngàn developers.
 
-[Xem chi tiết](https://kt.city/course/khoa-hoc-html-css-evondev)
+Link khoá học: [https://kt.city/course/khoa-hoc-html-css-evondev](https://kt.city/course/khoa-hoc-html-css-evondev)
 
 :::
 
