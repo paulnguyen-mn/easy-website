@@ -196,3 +196,5 @@ This is a caution
 This is a warning
 
 :::
+
+![](images/2021-08-30-12-19-09.png)
