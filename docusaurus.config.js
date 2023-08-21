@@ -7,9 +7,6 @@ module.exports = {
   organizationName: "paulnguyen-mn", // Usually your GitHub org/user name.
   projectName: "easy-frontend", // Usually your repo name.
   themeConfig: {
-    gtag: {
-      trackingID: "UA-172756678-1",
-    },
     navbar: {
       title: "EASY FRONTEND",
       logo: {
@@ -128,6 +125,9 @@ module.exports = {
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
+        },
+        gtag: {
+          trackingID: "UA-172756678-1",
         },
       },
     ],

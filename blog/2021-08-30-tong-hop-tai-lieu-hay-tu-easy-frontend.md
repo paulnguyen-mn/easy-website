@@ -5,13 +5,13 @@ author: Hậu Nguyễn
 author_title: Founder of Easy Frontend
 author_url: https://github.com/paulnguyen-mn
 author_image_url: https://avatars3.githubusercontent.com/u/31444102?s=400&u=c545a527aa31843e1361462e410c0f51863e8e26&v=4
-image: https://res.cloudinary.com/kimwy/image/upload/v1630317724/easyfrontend/tong-hop-tai-lieu-frontend_cpt4kx.jpg
+image: https://res.cloudinary.com/easy-frontend/image/upload/v1630317724/easyfrontend/tong-hop-tai-lieu-frontend_cpt4kx.jpg
 tags: [sharing, frontend developer]
 ---
 
 Sau một thời gian dài hoạt động, kênh Easy Frontend đã có một số lượng tới tài liệu cho mảng Easy Frontend, điều này gây ra một số khó khăn cho người xem không biết có những gì để tham khảo. Do đó, mình tạo ra trang này nhằm mục đích tổng hợp lại để mọi người tiện tra cứu và theo dõi nhé 😍
 
-![Tổng hợp tài liệu hay từ kênh Easy Frontend](https://res.cloudinary.com/kimwy/image/upload/v1630317724/easyfrontend/tong-hop-tai-lieu-frontend_cpt4kx.jpg)
+![Tổng hợp tài liệu hay từ kênh Easy Frontend](https://res.cloudinary.com/easy-frontend/image/upload/v1630317724/easyfrontend/tong-hop-tai-lieu-frontend_cpt4kx.jpg)
 
 <!-- truncate-->
 
