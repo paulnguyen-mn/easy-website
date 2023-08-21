@@ -22,8 +22,8 @@ module.exports = {
         },
         { to: "blog", label: "Blog", position: "left" },
         {
-          href: "https://youtube.com/easyfrontend/join",
-          label: "Đăng ký Fan Cứng",
+          href: "https://course.ezfrontend.com/javascript",
+          label: "Khoá học Javascript",
           position: "right",
         },
         {
@@ -32,8 +32,8 @@ module.exports = {
           position: "right",
         },
         {
-          href: "https://course.ezfrontend.com/javascript",
-          label: "Khoá học Javascript",
+          href: "https://course.ezfrontend.com/reactjs",
+          label: "Khóa học NextJS",
           position: "right",
         },
       ],
@@ -63,10 +63,6 @@ module.exports = {
               href: "https://www.facebook.com/nvhauesmn",
             },
             {
-              label: "Facebook Fanpage",
-              href: "https://www.facebook.com/learn.easyfrontend",
-            },
-            {
               label: "FAQs",
               href: "https://roadmap.ezfrontend.com/faq",
             },
@@ -93,7 +89,7 @@ module.exports = {
             },
             {
               label: "Playlist NextJS toàn tập có dự án mẫu 🎉",
-              href: "https://www.youtube.com/playlist?list=PLeS7aZkL6GOuMvDYcyW9VVLCvKnNhm4It",
+              href: "https://course.ezfrontend.com/nextjs",
             },
           ],
         },

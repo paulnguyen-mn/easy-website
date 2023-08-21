@@ -5,13 +5,13 @@ author: Hậu Nguyễn
 author_title: Founder of Easy Frontend
 author_url: https://github.com/paulnguyen-mn
 author_image_url: https://avatars3.githubusercontent.com/u/31444102?s=400&u=c545a527aa31843e1361462e410c0f51863e8e26&v=4
-image: https://res.cloudinary.com/easy-frontend/image/upload/v1624063424/easyfrontend/lo-trinh-fe_zzhxml.png
+image: https://res.cloudinary.com/easy-frontend/image/upload/v1624063424/blog/lo-trinh-fe_zzhxml.png
 tags: [sharing, frontend developer]
 ---
 
 Bạn mới bắt đầu học Frontend nhưng không biết phải bắt đầu từ đâu và học những gì? Hãy cùng mình đi qua bài blog này để có thể hình dung ra mình sẽ cần học những gì nhé 😉
 
-![How to become a frontend developer](https://res.cloudinary.com/easy-frontend/image/upload/v1624063424/easyfrontend/lo-trinh-fe_zzhxml.png)
+![How to become a frontend developer](https://res.cloudinary.com/easy-frontend/image/upload/v1624063424/blog/lo-trinh-fe_zzhxml.png)
 
 > Source: [https://www.geeksforgeeks.org/how-to-become-a-front-end-developer/](https://www.geeksforgeeks.org/how-to-become-a-front-end-developer/)
 

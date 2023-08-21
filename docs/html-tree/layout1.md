@@ -3,7 +3,7 @@ id: layout-1
 slug: /phan-tich-cay-html-trang-live-recover
 title: Phân tích cây HTML - LiveRecover marketing site
 sidebar_label: Bài 1 - LiveRecover marketing site
-image: https://res.cloudinary.com/easy-frontend/image/upload/v1616473212/easyfrontend/html-css-thumbnail_exrv5a.jpg
+image: https://res.cloudinary.com/easy-frontend/image/upload/v1616473212/blog/html-css-thumbnail_exrv5a.jpg
 ---
 
 Trong series này mình sẽ cùng các bạn chọn ra những layout của nhiều website khác nhau, sau đó phân tích cây HTML nhé, có áp dụng quy tắc đặt tên class BEM.
