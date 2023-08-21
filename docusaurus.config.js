@@ -67,8 +67,8 @@ module.exports = {
               href: "https://www.facebook.com/learn.easyfrontend",
             },
             {
-              label: "Facebook Group",
-              href: "https://www.facebook.com/groups/easyfrontend",
+              label: "FAQs",
+              href: "https://roadmap.ezfrontend.com/faq",
             },
             {
               label: "Youtube",
@@ -90,6 +90,10 @@ module.exports = {
             {
               label: "ReactJS cho người mới bắt đầu 🎁",
               href: "https://course.ezfrontend.com/reactjs",
+            },
+            {
+              label: "Playlist NextJS toàn tập có dự án mẫu 🎉",
+              href: "https://www.youtube.com/playlist?list=PLeS7aZkL6GOuMvDYcyW9VVLCvKnNhm4It",
             },
           ],
         },
