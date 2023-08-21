@@ -1,12 +1,12 @@
 ---
-slug: react-techstack-by-year
-title: Các thư viện sử dụng trong dự án React theo năm
+slug: fan-cung-la-gi
+title: Quyền lợi khi tham gia Fan Cứng
 author: Hậu Nguyễn
 author_title: Founder of Easy Frontend
 author_url: https://github.com/paulnguyen-mn
 author_image_url: https://avatars3.githubusercontent.com/u/31444102?s=400&u=c545a527aa31843e1361462e410c0f51863e8e26&v=4
 image: https://res.cloudinary.com/easy-frontend/image/upload/v1630317724/blog/tong-hop-tai-lieu-frontend_cpt4kx.jpg
-tags: [react, techstack by year]
+tags: [fan-cung]
 draft: true
 ---
 
@@ -22,28 +22,22 @@ Những thư viện mình liệt kê dưới đây là theo **cá nhân** của 
 
 :::
 
-## Overview
+## Fan cứng là gì?
 
-| Topic            | 2020-2021        | 2022-2023             |
-| :--------------- | :--------------- | :-------------------- |
-| Form Management  | React Hook Form  | React Hook Form       |
-| Form Validation  | Yup              | Yup                   |
-| State Management | Redux Toolkit    | React Query + Zustand |
-| Build tool       | Create React App | ViteJS                |
-| UI lib           | Material UI v4   | MUI v5+               |
-| Style            | SCSS + BEM       | JSX / MUI sx props    |
+## Quyền lợi tham gia fan cứng?
 
-Scroll xuống tí, có thêm chi tiết nè 😊
+## Chi phí
 
-## Form Management + Validation
+## Cách thức đăng ký
 
-## State Management
+✅ &nbsp;Nếu bạn muốn có những quyền lợi ưu tiên trên kênh Easy Frontend:
 
+- Có badge và emoji riêng
+- Xem trước videos chưa public.
+- Xem videos chỉ dành riêng cho FAN CỨNG
+- Đọc được các status/post chỉ dành riêng cho FAN CỨNG.
 
-## Build tool
-
-## UI lib + styles
-
+Đăng ký FAN CỨNG tại đây [https://youtube.com/easyfrontend/join](https://youtube.com/easyfrontend/join) chỉ với `60k/1tháng`
 
 
 
@@ -58,4 +52,3 @@ Easy Frontend - Code xịn hơn mỗi ngày
 - 🔥 Khoá học Javascript: https://course.ezfrontend.com/javascript 
 - 🎁 Khoá học ReactJS: https://course.ezfrontend.com/reactjs
 - 🎯 Khóa học NextJS: https://course.ezfrontend.com/nextjs
-- ❓ Quyền lợi khi tham gia [fan cứng](/blog/fan-cung-la-gi)?
