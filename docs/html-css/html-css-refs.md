@@ -1,5 +1,6 @@
 ---
 id: tai-lieu-tham-khao-hoc-html-css-co-ban
+slug: /tai-lieu-tham-khao-html-css
 title: Tài liệu tham khảo HTML CSS cơ bản 🎉
 sidebar_label: Tài liệu tham khảo
 image: https://images.unsplash.com/photo-1592439162403-e2ba684a9cd6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80

@@ -15,7 +15,7 @@ module.exports = {
       },
       items: [
         {
-          to: "docs/",
+          to: "docs/tai-lieu-tham-khao-html-css",
           activeBasePath: "docs",
           label: "Docs",
           position: "left",
@@ -63,7 +63,7 @@ module.exports = {
               href: "https://www.facebook.com/nvhauesmn",
             },
             {
-              label: "FAQs",
+              label: "Hỏi đáp với Easy Frontend",
               href: "https://roadmap.ezfrontend.com/faq",
             },
             {
