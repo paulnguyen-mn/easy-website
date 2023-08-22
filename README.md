@@ -1,33 +1,16 @@
 # Easy Frontend
 
-This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
+This repo is the source code of website [https://ezfrontend.com](https://ezfrontend.com) hosted by Hau Nguyen.
 
-### Installation
+- Framework: [Docusaurus](https://docusaurus.io/)
+- Host: [Vercel](https://vercel.com/)
+- Dev: [Hau Nguyen](https://github.com/paulnguyen-mn)
 
-```
-$ yarn
-```
+## Why I use Docusaurus?
 
-### Local Development
+Because it's fast and simple to setup the site, so I have time to focus on the content instead of technical stuffs.
 
-```
-$ yarn start
-```
+## What to expect on this site?
 
-This command starts a local development server and open up a browser window. Most changes are reflected live without having to restart the server.
+Just for myself to share about my thoughts / experiences along the way to become a better Frontend Developer.
 
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-```
-$ GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
