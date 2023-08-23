@@ -1,3 +1,5 @@
+const path = require("path");
+
 module.exports = {
   title: "Easy Frontend",
   tagline: "Code xịn hơn mỗi ngày",
@@ -161,4 +163,5 @@ module.exports = {
       },
     ],
   ],
+  plugins: [path.resolve(__dirname, "plugins", "add-fb-chat")],
 };
