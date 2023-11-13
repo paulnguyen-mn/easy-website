@@ -23,7 +23,10 @@ module.exports = {
     {
       type: "category",
       label: "Tanstack Query",
-      items: ["tanstack-query/tanstack-query-01"],
+      items: [
+        "tanstack-query/tanstack-query-01",
+        "tanstack-query/tanstack-query-02",
+      ],
     },
   ],
 };
