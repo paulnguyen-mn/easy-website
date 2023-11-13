@@ -20,5 +20,10 @@ module.exports = {
         "javascript/js-04-11",
       ],
     },
+    {
+      type: "category",
+      label: "Tanstack Query",
+      items: ["tanstack-query/tanstack-query-01"],
+    },
   ],
 };
