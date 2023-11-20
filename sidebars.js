@@ -27,6 +27,7 @@ module.exports = {
         "tanstack-query/tanstack-query-01",
         "tanstack-query/tanstack-query-02",
         "tanstack-query/tanstack-query-03",
+        "tanstack-query/tanstack-query-04",
       ],
     },
   ],
