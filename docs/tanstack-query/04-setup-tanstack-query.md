@@ -3,7 +3,7 @@ id: tanstack-query-04
 slug: /tanstack-query-provider-setup
 title: Setup QueryClientProvider
 sidebar_label: 04 - Setup QueryClientProvider
-draft: true
+draft: false
 ---
 
 - Create `queryClient` **once** ONLY, as it hold the query cache data.
