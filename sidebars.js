@@ -1,3 +1,9 @@
+const TANSTACK_QUERY_COUNT = 8;
+
+function lastTwoDigits(number) {
+  return `0${number}`.slice(-2);
+}
+
 module.exports = {
   mySidebar: [
     {
@@ -23,12 +29,12 @@ module.exports = {
     {
       type: "category",
       label: "Tanstack Query",
-      items: [
-        "tanstack-query/tanstack-query-01",
-        "tanstack-query/tanstack-query-02",
-        "tanstack-query/tanstack-query-03",
-        "tanstack-query/tanstack-query-04",
-      ],
+      items: new Array(TANSTACK_QUERY_COUNT)
+        .fill()
+        .map(
+          (_, index) =>
+            `tanstack-query/tanstack-query-${lastTwoDigits(index + 1)}`
+        ),
     },
   ],
 };
