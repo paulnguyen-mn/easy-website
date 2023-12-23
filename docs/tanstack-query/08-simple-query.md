@@ -3,10 +3,26 @@ id: tanstack-query-08
 slug: /tanstack-simple-query
 title: Simple Query
 sidebar_label: 08 - Simple Query
-draft: true
+draft: false
 ---
 
-## UserAPI - getProfile()
+Get started with a simple query first!
+
+```bash
+src
+|__ api
+|   |__ user-api.ts
+|   |__ index.ts # export all from api files
+|
+|__ hooks
+|   |__ use-profile.ts 
+|   |__ index.ts # export all from hook files
+|
+|__ app.tsx # use custom hook and render data on UI
+
+```
+
+## 1. UserAPI - getProfile()
 
 ```ts title="src/api/user-api.ts"
 // GPT: export userApi object with one method getProfile from axiosClient.get() with path /public-profile
@@ -24,7 +40,7 @@ export const userApi = {
 }
 ```
 
-## New hook: useProfile() 
+## 2. New hook: useProfile() 
 
 ```ts title="src/hooks/use-profile.ts"
 // GPT: define custom hook useProfile to use useQuery and call API userApi.getProfile
@@ -41,7 +57,7 @@ export const useProfile = (options?: Omit<UseQueryOptions<UserProfile>, 'queryKe
 
 ```
 
-## Use custom hook in our component
+## 3. Use custom hook in our component
 
 ```tsx title="src/App.tsx"
 // GPT: define App component that use useProfile() hook and render it's data to UI
@@ -75,7 +91,7 @@ const App: React.FC = () => {
 export default App
 ```
 
-## Fix compatible issue, Tanstack Query required at least react 18
+## 4. Fix compatible issue, Tanstack Query required at least react 18
 
 Update react, react-dom to the latest version
 
@@ -90,7 +106,7 @@ In case the issue is not resolved, perhaps we can try to clean node_modules and 
 
 :::
 
-## Update main.tsx code
+## 5. Update main.tsx code
 
 ```tsx title="main.tsx"
 // GPT: change to react 18 setup version

@@ -3,7 +3,7 @@ id: tanstack-query-07
 slug: /tanstack-project-setup
 title: Project Setup
 sidebar_label: 07 - Project Setup
-draft: true
+draft: false
 ---
 
 A few more steps to get our project ready for react-query learning journey! 😊
