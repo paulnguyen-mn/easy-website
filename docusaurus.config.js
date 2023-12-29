@@ -9,6 +9,11 @@ module.exports = {
   organizationName: 'paulnguyen-mn', // Usually your GitHub org/user name.
   projectName: 'easy-frontend', // Usually your repo name.
   themeConfig: {
+    colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: false,
+      respectPrefersColorScheme: true,
+    },
     navbar: {
       title: 'EASY FRONTEND',
       logo: {
