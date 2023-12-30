@@ -1,4 +1,4 @@
-const TANSTACK_QUERY_COUNT = 10
+const TANSTACK_QUERY_COUNT = 12
 
 function lastTwoDigits(number) {
   return `0${number}`.slice(-2)
